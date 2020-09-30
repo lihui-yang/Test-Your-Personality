@@ -124,9 +124,11 @@ function check(){
 	}
 
 	document.getElementById("after_submit").style.visibility = "visible";
+	document.getElementById("Contact").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("Personality").innerHTML = "You are " + name[score] + " personality!";
 	document.getElementById("picture").src = pictures[score];
+	
 }
 
 function link(){

@@ -90,6 +90,14 @@ body{
   	margin-left: 400px;
 }
 
+#start{
+	color: white;
+	font-size: 20px;
+}
+
+#Contact{
+	font-size: 20px;
+}
 html{
 	height:100%
 }
