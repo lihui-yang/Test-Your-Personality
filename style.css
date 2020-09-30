@@ -1,0 +1,104 @@
+
+body{
+	/*background:url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
+	background-size: cover;
+	background-position: center;*/
+	font-family: 'Lato', sans-serif;
+	/*color:white;*/
+}
+.showPage{
+	background-image: url(https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/personality-tests_featured@2x-768x374.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	z-index: 0;
+	color: black;
+}
+.quiz{
+  	background-color: #E6E6FA;
+  	border-radius: 5px;
+  	padding: 20px;
+  	font-size: 20px;
+	width: 600px;
+  	max-width: 80%;
+  	margin-right: auto;
+  	margin-top:40px;
+  	margin-left: auto;
+  	/*box-shadow: 0 0 10px 2px;*/
+  }
+#after_submit {
+	visibility: hidden;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	width: 600px;
+  	max-width: 80%;
+  	margin-right: auto;
+  	margin-top:40px;
+  	margin-left: auto;
+  	background-color: #E6E6FA;
+  	border-radius: 5px;
+  	padding: 60px;
+  	/*box-shadow: 0 0 10px 2px;*/
+
+}
+#picture {
+	width: 445px;
+	height: 345px;
+}
+
+#content{
+	text-align:center;
+	padding-top:25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#button {
+	background: green;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-right: 250px;
+  	margin-top:40px;
+  	margin-left: 500px;
+
+}
+
+#Personality{
+	font-family: 'Source Code Pro', monospace;
+	text-align:center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+	color:purple;
+	font-size:26px;
+}
+
+#message{
+	margin-top: 20px;
+	text-align:justify;
+}
+
+.info{
+	margin-right: 250px;
+  	margin-top:40px;
+  	margin-left: 400px;
+}
+
+html{
+	height:100%
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr{
+	width: 400px;
+	border-top:1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0,2);
+}
