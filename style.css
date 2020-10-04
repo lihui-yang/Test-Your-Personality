@@ -7,7 +7,7 @@ body{
 	/*color:white;*/
 }
 .showPage{
-	background-image: url(https://media2.s-nbcnews.com/j/newscms/2018_39/2582131/180928-differing-personality-mc-1541_82da49880ddb600e0b7d668fd1ab953b.fit-2000w.JPG);
+	background-image: url(https://images.unsplash.com/photo-1575278220902-cdf1a07a0421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -96,7 +96,7 @@ body{
 
 #start{
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 #Contact{
