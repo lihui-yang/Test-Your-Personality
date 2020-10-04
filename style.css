@@ -42,11 +42,6 @@ body{
   	/*box-shadow: 0 0 10px 2px;*/
 
 }
-#picture {
-	width: 445px;
-	height: 345px;
-}
-
 #content{
 	text-align:center;
 	padding-top:25%;
@@ -56,18 +51,27 @@ body{
 }
 
 #button {
-	background: green;
-	border: none;
-	border-radius: 5px;
-	padding: 10px;
-	color: white;
-	font-size: 16px;
+	/*font-size: 16px;*/
 	transition-duration: .5s;
-	margin-right: 250px;
-  	margin-top:40px;
-  	margin-left: 500px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 144px;
+  	margin-top: 30px;
+}
+
+#my_button { 
+	justify-content: center; 
+	display: flex;
+	margin-top: 30px;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 144px;
 
 }
+
 
 #Personality{
 	font-family: 'Source Code Pro', monospace;
@@ -98,6 +102,10 @@ body{
 #Contact{
 	font-size: 20px;
 }
+
+.navbar{
+	margin-top:0 !important;
+}
 html{
 	height:100%
 }
@@ -105,6 +113,12 @@ h1{
 	font-weight: 700;
 	font-size: 5em;
 }
+
+.envelope{
+	color:black;
+	margin-right: 10px;
+}
+
 hr{
 	width: 400px;
 	border-top:1px solid #f8f8f8;

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Test Your Personality</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
@@ -10,25 +10,20 @@
 	<script src = "main.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-				<a href="#Home" class="navbar-brand"><i class="fas fa-carrot"></i>Test Your Personality</a>
-			</div>
-			<div class="collapse navbar-collapse" id="bs-nav-demo">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">About</a></li>
-					<li><a href="#Contact">Contact</a></li>
-				</ul>
-			</div>
-		</div>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="https://lihui-yang.github.io/Test-Your-Personality/"><i class="fas fa-carrot"></i>Test Your Personality</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    		<div class="navbar-nav">
+      		<a class="nav-item nav-link active" href="https://lihui-yang.github.io/Test-Your-Personality/">Home <span class="sr-only">(current)</span></a>
+      		<a class="nav-item nav-link" href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">About</a>
+      		<a class="nav-item nav-link" href="#Contact">Contact</a>
+
+    		</div>
+  		</div>
 	</nav>
 
 	<div id = "Home" class="showPage">
@@ -109,28 +104,32 @@
 				<input type = "radio" id = "mc" name = "question10" value = "Neutral"> Neutral<br>
 				<input type = "radio" id = "mc" name = "question10" value = "Disagree"> Disagree<br>
 			</div>
-			<input id = "button" type = "button" class="btn btn-outline-success" value = "Submit" onclick = "check();">
+			<div class="container">
+				<a id = "button" class="btn btn-outline-success" value = "Submit" onclick = "check();">Submit</a>
+			</div>
 		</div>
 	</div>
 
 </form>
-<div id = "after_submit">
-	<p id = "Personality"></p>
-	<p id = "message"></p>
-	<img id = "picture">
-	<input type="button" class="btn btn-outline-info info" value = "Learn more" onclick = "link();">
-</div>
 
-<div id = "Contact">
-		<div class="col-lg-12">
+	<div id ="after_submit" class="card">
+  			<div class="card-body">
+    			<h5 class="card-title" id="Personality"></h5>
+    			<p class="card-text" id ="message"></p>
+    			<img id="picture" class="card-img-bottom">
+    			<a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits" id="my_button" class="btn btn-outline-info">Learn More</a>
+  			</div>
+	</div>
+
+<div class="container-fluid">
+	<div id = "Contact">
+		<div class="col-lg-12 col-sm-6">
 			<div id="content">
-				<p>Emma Yang</p>
-				<p>Email-Address: yanglihuiemma@gmail.com</p>
+				<p><i class="fa fa-envelope envelope"></i>yanglihuiemma@gmail.com</p>
 			</div>
 		</div>
-</div>
-<!-- <script src="http://code.jquery.com/jquery-2.1.4.js"></script> -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</div>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js></script>
 
 </body>
 </html>
